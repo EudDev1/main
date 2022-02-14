@@ -9,7 +9,7 @@ allLi.forEach((li, index) => {
 
     const indicator = document.querySelector(".indicator")
 
-    indicator.style.transform = `translatX(calc(${index * 90}px))`
+    indicator.style.transform = `translateX(calc(${index * 90}px))`
   });
 
 });
